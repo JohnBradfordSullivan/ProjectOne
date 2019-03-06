@@ -1,0 +1,339 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TXT25';
+    src:    url('fonts/TXT25_0.2-Regular.woff') format('woff'),
+            url('fonts/TXT25_0.2-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+head {
+  background-color: #FCF4DB;
+
+}
+
+body {
+  background-color: #FCF4DB;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Shrikhand', cursive;
+  font-size: 64pt;
+  color: #743C08;
+
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Mogra', cursive;
+  color: #743C08;
+
+}
+
+.otherHalf {
+  font-size: 64pt;
+  text-align: center;
+  font-family: 'Mogra', cursive;
+  color: #743C08;
+}
+
+.closer {
+  color: #d3b971;
+  font-size: 12pt;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.loveGoesOn {
+  font-size: 64pt;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+  color: #743C08;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 8pt;
+  color: #743C08;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10pt;
+  color: #743C08;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.beach {
+    position: relative;
+    float: left;
+    width: 540px;
+    height: 50vh;
+    background-image: url(../images/beachshot2.png);
+    background-attachment: fixed;
+    background-size: 50%;
+    align-content: center;
+}
+
+.cat01 {
+    position: absolute;
+    max-width: 25%;
+    height: auto;
+    top: 500px;
+    left: 100px;
+    z-index: +1;
+    transition: left 1.5s;
+}
+
+.kittyPlay {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 1500px;
+    left: 1475px;
+    z-index: +1;
+
+}
+
+.kittyPlayPaw {
+    position: absolute;
+    width: 400px;
+    top: 1400px;
+    left: 1575px;
+    z-index: +1;
+    transition: left 1.0s;
+}
+
+.kittyPlayPaw:hover {
+    left: 2000px;
+}
+
+.cat01:hover {
+    left: -100px;
+
+}
+
+.ashleyPlants {
+  animation-name: stars;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.happyFace {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  left: 37%;
+}
+
+.traffic {
+    margin-top: 64px;
+    position: absolute;
+    float: left;
+    width: 200px;
+    height: 60vh;
+    background-image: url(../images/traffic.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    z-index: +2;
+    top: 3750px;
+    left: 1000px;
+}
+
+.sadMan {
+  margin-top: 64px;
+  position: absolute;
+  float: left;
+  width: 200px;
+  height: 60vh;
+  background-image: url(../images/sadMan.png);
+  background-attachment: fixed;
+  background-size: 100%;
+  z-index: +2;
+  top: 4300px;
+  left: 500px;
+}
+
+
+.big {
+  font-size: 16pt;
+  text-align: left;
+}
+
+.gig {
+  font-size: 16pt;
+  text-align: right;
+}
+
+.cig {
+  font-size: 16pt;
+  text-align: center;
+}
+
+.biggish {
+  left: 200px;
+}
+
+.ladder0{
+  font-size: 6pt;
+  font-family: "Roboto Mono" , monospace;
+  font-weight: 100;
+  text-align: center;
+}
+
+.ladder01{
+  font-size: 8pt;
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 100;
+  text-align: center;
+}
+
+.ladder02{
+  font-size: 12pt;
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 300;
+  text-align: center;
+}
+
+.ladder03{
+  font-size: 16pt;
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ladder04{
+  font-size: 20pt;
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ladder05{
+  font-size: 24pt;
+  font-family: 'Roboto Mono' , monospace;
+  font-weight: 700;
+  text-align: center;
+}
+
+.crying {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 4300px;
+  left: 575px;
+  z-index: +1;
+}
+
+.hands {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 4600px;
+  left: 575px;
+  z-index: +1;
+}
+
+.skeleton {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 4900px;
+  left: 575px;
+  z-index: +1;
+}
+
+.stress {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 5100px;
+  left: 575px;
+  z-index: +1;
+}
+
+.where {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 5400px;
+  left: 575px;
+  z-index: +1;
+}
+
+.work{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: 5700px;
+    left: 575px;
+    z-index: +1;
+}
+
+.ashley {
+  position: absolute;
+  width: 10%;
+  height: auto;
+  top: 7500px;
+  left: 900px;
+  z-index: -1;
+}
+
+g#Plants {
+  animation: plants 8s infinite;
+}
+
+g#Stars {
+  animation: stars 5s infinite;
+}
+
+g#Mouth {
+  animation: Mouth 5s infinite;
+}
+
+@keyframes stars {
+  50% {
+    transform: scale(2.0);
+    transform: rotate(1.5deg);
+  }
+}
+
+@keyframes plants {
+  25% {
+     transform: translateX(4.5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+@keyframes cat01a {
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-200px);
+  }
+}
+
+@keyframes Mouth {
+
+  0% {
+    transform: translateX(-25px);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+  100% {
+    transform: translateX(-25px);
+  }
+}
